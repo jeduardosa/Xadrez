@@ -29,7 +29,4 @@ public class Board {
 	public void setColumns(int columns) {
 		this.columns = columns;
 	}
-	
-	
-
 }

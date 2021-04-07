@@ -9,25 +9,25 @@ public class Position {
 		this.column = column;
 	}
 	
-	private int getRow() {
+	public int getRow() {
 		return row;
 	}
 	
-	private void setRow(int row) {
+	public void setRow(int row) {
 		this.row = row;
 	}
 	
-	private int getColumn() {
+	public int getColumn() {
 		return column;
 	}
 	
-	private void setColumn(int column) {
+	public void setColumn(int column) {
 		this.column = column;
 	}
 	
 	@Override
-	public String toString () {
-		return row + ", "+column;
+	public String toString() {
+		return row + ", " + column;
 	}
 	
 
